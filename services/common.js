@@ -170,7 +170,7 @@ exports.invoiceTemplate = function (order) {
         <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
           <tr>
             <td align="center" valign="top" style="padding: 36px 24px;">
-              <a href="https://yash-shopnest.vercel.app/" target="_blank" style="display: inline-block;">
+              <a href="https://shopnest-yash.vercel.app/" target="_blank" style="display: inline-block;">
                 <img src="./img/paste-logo-light@2x.png" alt="Logo" border="0" width="48" style="display: block; width: 48px; max-width: 48px; min-width: 48px;">
               </a>
             </td>
@@ -342,7 +342,7 @@ exports.invoiceTemplate = function (order) {
           <!-- start unsubscribe -->
           <tr>
             <td align="center" bgcolor="#D2C7BA" style="padding: 12px 24px; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; color: #666;">
-              <p style="margin: 0;">To stop receiving these emails, you can <a href="https://yash-shopnest.vercel.app/" target="_blank">unsubscribe</a> at any time.</p>
+              <p style="margin: 0;">To stop receiving these emails, you can <a href="https://shopnest-yash.vercel.app/" target="_blank">unsubscribe</a> at any time.</p>
               <p style="margin: 0;">Paste 1234 S. Broadway St. City, State 12345</p>
             </td>
           </tr>
