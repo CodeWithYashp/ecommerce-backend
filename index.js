@@ -24,9 +24,6 @@ const { User } = require("./model/User");
 const { isAuth, sanitizeUser, cookieExtractor } = require("./services/common");
 const { Order } = require("./model/Order");
 
-// Webhook
-
-// TODO: we will capture actual order after deploying out server live on public URL
 const endpointSecret = process.env.ENDPOINT_SECRET;
 
 server.post(
@@ -69,7 +66,7 @@ server.post(
 
 const opts = {};
 opts.jwtFromRequest = cookieExtractor;
-opts.secretOrKey = process.env.JWT_SECRET_KEY; // TODO: should not be in code;
+opts.secretOrKey = process.env.JWT_SECRET_KEY; 
 
 //middlewares
 server.use(express.static(path.resolve(__dirname, "build")));
